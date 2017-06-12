@@ -1,0 +1,18 @@
+﻿div#add-user {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    // Add-user form
+    >div:first-of-type {
+       display: flex;
+       flex-direction: column;
+       align-content: center;
+       margin: 0 auto;
+
+        // Register button
+        input.btn {
+            background-color: $cs-yellow;
+        }
+    }
+}

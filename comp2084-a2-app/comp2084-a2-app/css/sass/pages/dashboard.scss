@@ -1,0 +1,15 @@
+﻿div#dashboard {
+    div.dash-table {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+
+        table {
+            box-shadow: 0 5px 5px 0px $cs-gray;
+        }
+
+        // Anchor div
+        div:last-of-type {
+            padding-top: 1rem;
+        }
+    }
+}

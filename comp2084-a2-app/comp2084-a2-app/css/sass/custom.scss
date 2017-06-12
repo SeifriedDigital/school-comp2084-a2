@@ -1,0 +1,110 @@
+﻿// Import sass helper files
+@import 'helpers/variables.scss';
+
+// Global styles
+// Sticky footer
+// http://getbootstrap.com/examples/sticky-footer/
+html, body, form {
+    height: 100% !important;
+}
+
+.wrapper {
+    min-height: 100%;
+    height: auto;
+    // Negative indent footer by its height
+    margin: 0 auto -40px auto !important;
+    // Pad bottom by footer height
+    padding: 0 0 40px;
+}
+
+footer.global-footer {
+    height: 40px !important;
+}
+// End sticky footer
+
+body {
+    font-size: 16px;
+    color: $cs-black;
+    background: $cs-white;
+
+    a {
+        color: $cs-blue-d20;
+    }
+
+    header {
+        background: $cs-gray-l20;
+
+        h1 {
+            font-weight: bold;
+        }
+
+        nav.navbar {
+            background: $cs-white;
+            padding: 0;
+        }
+    }
+
+    main {
+        padding: 2rem 0;
+
+        // Remove top and bottom margins on everything for better sticky footer
+        * {
+            margin-top: 0 !important;
+            margin-bottom: 0 !important;
+        }
+        
+        .error-header {
+            color: $cs-error-red;
+        }
+
+        .vertical-center {
+            display: flex;
+            align-items: center;
+        }
+
+        // Must be display: flex; & flex-direction: row;
+        .space-between {
+            justify-content: space-between;
+        }
+
+        h2 {
+            padding: 1rem 0 1.5rem;
+
+            &.inline {
+                display: inline;
+            }
+        }
+    }
+
+    footer {
+        display: flex;
+        align-items: center;
+        background: $cs-gray-l20;
+        padding: 0 0.5rem;
+    }
+
+    // Center containers (x)
+    div.container {
+        margin: 0 auto !important;
+    }
+
+    // Form error message container
+    div.form-msg {
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           padding: 1rem 0;
+       }
+}
+
+
+// Import page specific styles
+@import 'pages/default.scss';
+@import 'pages/register.scss';
+@import 'pages/dashboard.scss';
+@import 'pages/users.scss';
+@import 'pages/add-user.scss';
+@import 'pages/assets';
+@import 'pages/add-asset.scss';
+@import 'pages/logs.scss';
+@import 'pages/add-log.scss';

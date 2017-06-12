@@ -1,0 +1,39 @@
+﻿div#add-asset {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    // Add-asset form
+    >div:first-of-type {
+       display: flex;
+       flex-direction: column;
+       align-content: center;
+       margin: 0 auto;
+
+       .form-group {
+           min-height: 80px;
+
+           &.multi-group>div {
+               padding: 0;
+
+               &:first-of-type {
+                   padding-right: .5rem;
+               }
+
+               &:last-of-type {
+                   padding-left: .5rem;
+               }
+             }
+
+           // Mach space under other form divs caused by authentication divs
+           &.pad-bottom {
+               padding-bottom: 23px;
+           }
+       }
+
+        // Save button
+        input.btn {
+            background-color: $cs-yellow;
+        }
+    }
+}

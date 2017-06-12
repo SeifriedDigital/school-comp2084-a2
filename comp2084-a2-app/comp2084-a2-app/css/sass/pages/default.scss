@@ -1,0 +1,33 @@
+﻿div#default {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    // Logo
+    >img {
+        width: 200px;
+    } 
+
+   // Login form groups container
+   >div:first-of-type {
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       padding-top: 3rem;
+       margin: 0 auto;
+
+       // Login button
+       input.btn {
+           background-color: $cs-yellow;
+       }
+   }
+
+   // Forgot password
+   >div:last-of-type {
+      padding-top: 3rem;
+
+      a {
+          color: $cs-blue-d20;
+      }
+   }
+}

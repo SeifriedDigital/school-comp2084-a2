@@ -1,0 +1,23 @@
+﻿<Properties StartupConfiguration="{063EA149-28BA-4E90-AF6A-3C4041E2F054}|">
+  <MonoDevelop.Ide.ItemProperties.comp2084-a2-app PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="comp2084-a2-app/comp2084-a2-app.csproj">
+    <Files>
+      <File FileName="comp2084-a2-app/comp2084-a2-app.csproj" Line="45" Column="14" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="comp2084-a2-app" expanded="True">
+            <Node name="comp2084-a2-app" expanded="True" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
